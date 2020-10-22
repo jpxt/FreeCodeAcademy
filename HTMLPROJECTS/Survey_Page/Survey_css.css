@@ -1,0 +1,109 @@
+.body {  
+    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/84/99/D3e06I.png); 
+    background-size:auto;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.header{ 
+    text-align: center;
+    padding:15px;
+    
+}
+
+#title {
+    font-size: 40px; 
+    color:rgb(18, 18, 61)
+}
+#description {
+    font-size: 25px; 
+    color:rgb(8, 8, 66);
+    font-weight:700;
+    
+}
+         
+#survey-form{
+ 
+  max-width: 500px;
+  max-height: 600px;
+  height: 600px;
+  margin: 50px auto;
+  border:8px solid rgb(6, 6, 70);
+  padding:20px;  
+  color:rgb(18, 18, 61);
+  font-size: 20px;
+  
+}
+
+
+#survey-form input[type=text]{
+    background: white;
+    border: 3px solid rgb(24, 6, 65);
+    border-radius: 1px;
+    box-shadow: 0 0 3px #DDD inset;
+    color: #666;
+    padding: 5px 10px;
+    width: 185px;
+    outline: none;
+  
+  }
+ #survey-form input[type=email]   {
+    background: white;
+    border: 3px solid rgb(24, 6, 65);
+    border-radius: 1px;
+    box-shadow: 0 0 3px #DDD inset;
+    color: #666;
+    padding: 5px 10px;
+    width: 185px;
+    outline: none; 
+   
+} 
+
+#survey-form input[type=number]{
+    background: white;
+    border: 3px solid rgb(24, 6, 65);
+    border-radius: 1px;
+    box-shadow: 0 0 3px #DDD inset;
+    color: #666;
+    padding: 5px 10px;
+    width: 185px;
+    outline: none;
+} 
+   
+    
+
+#survey-form input[type=submit]{
+    background-color: #2313b4;
+    border: solid;
+    border-color: rgb(18, 18, 61);
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;;
+
+}
+
+
+
+textarea {
+	border: 3px solid rgb(18, 18, 61);
+	padding: 5px;
+
+}
+
+
+
+#dropdown {
+
+    background: white;
+    border: 3px solid rgb(24, 6, 65);
+    border-radius: 1px;
+    box-shadow: 0 0 3px #DDD inset;
+    color: #666;
+    padding: 5px 10px;
+    width: 185px;
+
+
+}
+    

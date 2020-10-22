@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    /*border: 5px solid #e8f9fd;*/
+}
+
+#navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(45deg, #ff1e00, rgb(250, 224, 66));
+    border-image-slice: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1307&q=80);
+    background-size: cover;
+    /*border: 5px solid #e8f9fd;*/
+    -webkit-box-shadow: 0px 8px 7px -4px #e8f9fd;
+    -moz-box-shadow: 0px 8px 7px -4px #e8f9fd;
+    box-shadow: 0px 8px 7px -4px #e8f9fd;
+}
+
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+#welcome h1 {
+    color: #ff1e00;
+}
+
+#welcome h2 {
+    color: #e8f9fd;
+}
+
+#Projects-title {
+    font-size: 40px;
+    color: #e8f9fd;
+    padding: 100px;
+    text-align: center;
+}
+
+.project-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.projects-Img {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    text-decoration: none;
+}
+
+.projects-Img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 26px 26px 26px 26px;
+    -moz-border-radius: 26px 26px 26px 26px;
+    -webkit-border-radius: 26px 26px 26px 26px;
+    border: 5px solid #ad1400;
+}
+
+.projects-Img alt {
+    font-size: 30px;
+    color: red;
+    margin-top: 20px;
+}
+
+#Contacts {
+    background-color: rgb(73, 0, 0);
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    color: #ff1e00;
+    padding: 100px;
+}
+
+#Contacts ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contacts h2 {
+    font-size: 50px;
+}
+
+.links a {
+    color: white;
+    font-size: 70px;
+    margin: 0 40px;
+}
+
+footer {
+    background-color: #e8f9fd;
+    padding: 15px;
+    text-align: center;
+    color: #ff1e00;
+    font-weight: bolder;
+}
+
+@media (max-width:600px) {
+    #Contacts {
+        padding: 50px;
+    }
+}
+
+@media (max-width:1000px) {
+    header {
+        background-position: center center;
+    }
+}
